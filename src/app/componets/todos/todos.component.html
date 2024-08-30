@@ -1,0 +1,6 @@
+<!--<p *ngFor="let todox of todos">{{ todox.text }}</p>-->
+<app-todo
+ *ngFor="let todox of todos" 
+ [todo]="todox"
+ (totoVymazat)="deleteTodo(todox)"
+ ></app-todo>

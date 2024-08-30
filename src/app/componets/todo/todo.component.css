@@ -1,0 +1,44 @@
+.todo {
+    background: #f4f4f4;
+    margin: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.status {
+    display: inline-block;
+    margin: 5px 0;
+    background: #000;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.open {
+    background-color: #Fdf496;
+}
+
+.in-progress {
+    background-color: #b3d9f9;
+}
+
+.done {
+    background-color: #98Ffcc;
+}
+
+.testing {
+    background-color: #b36bf9;
+}
+
+
+.todo fa-icon {
+    color: red;
+}
+
+.todo h3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
